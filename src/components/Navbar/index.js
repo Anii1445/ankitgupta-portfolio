@@ -28,14 +28,14 @@ const Navbar = () => {
           <NavLink href='#projects'>Projects</NavLink>
           <NavLink href='#education'>Education</NavLink>
           <NavLink href='#skills'>Skills</NavLink>
-          <NavLink href='#skills'>Contact</NavLink>
+          <NavLink href='#contact'>Contact</NavLink>
 
         </NavItems>
         <ButtonContainer>
           <GitHubButton href={Bio.github} target="_blank">Github Profile</GitHubButton>
         </ButtonContainer>
         <ButtonContainer>
-          <LinkedInButton href={Bio.github} target="_blank">LinkedIn Profile</LinkedInButton>
+          <LinkedInButton href={Bio.linkedin} target="_blank">LinkedIn Profile</LinkedInButton>
         </ButtonContainer>
         {
           isOpen &&
