@@ -242,32 +242,21 @@ export const education = [
 
 export const projects = [
   {
-    id: 9,
-    title: "Trackify",
-    date: "Jun 2023 - Jul 2023",
+    id:0,
+    title: "Coalescence Telegram Bot for Check-In Check-Out",
     description:
-      "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
+      "This project aims to create an Coalescence-Hub Management(https://cls-hub.coalescence.tech) with a Telegram bot integration. The system allows employees to check in and check out of work, request leave or work from home, and track their work hours. Admins can manage employee check-ins and check-outs, approve or reject leave requests, and send important messages and holiday notifications to employees.",
     image:
-      "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+      "https://i.postimg.cc/hjb6RQ24/op.png",
     tags: [
-      "Docker",
-      "AWS",
-      "DuckDNS",
-      "Eslint",
-      "Husky",
-      "CI/CD",
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Redux",
+      "Python", "Flask", "MongoDB", "python-telegram-bot", "pymongo"
     ],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Trackify",
-    webapp: "https://trackify.duckdns.org",
+    category: "coalescence",
+    // github: "https://github.com/rishavchanda/Trackify",
+    // webapp: "https://trackify.duckdns.org",
   },
   {
-    id: 0,
+    id: 9,
     title: "Podstream",
     date: "Apr 2023 - May 2023",
     description:
