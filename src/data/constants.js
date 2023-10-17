@@ -242,15 +242,71 @@ export const education = [
 
 export const projects = [
   {
-    id:0,
+    id: 0,
     title: "Coalescence Telegram Bot for Check-In Check-Out",
-    description:
-      "This project aims to create an Coalescence-Hub Management(https://cls-hub.coalescence.tech) with a Telegram bot integration. The system allows employees to check in and check out of work, request leave or work from home, and track their work hours. Admins can manage employee check-ins and check-outs, approve or reject leave requests, and send important messages and holiday notifications to employees.",
-    image:
-      "https://i.postimg.cc/hjb6RQ24/op.png",
-    tags: [
-      "Python", "Flask", "MongoDB", "python-telegram-bot", "pymongo"
-    ],
+    description: "This project aims to create an Coalescence-Hub Management(https://cls-hub.coalescence.tech) with a Telegram bot integration. The system allows employees to check in and check out of work, request leave or work from home, and track their work hours. Admins can manage employee check-ins and check-outs, approve or reject leave requests, and send important messages and holiday notifications to employees.",
+    image: "https://i.postimg.cc/hjb6RQ24/op.png",
+    tags: [ "Python", "Flask", "MongoDB", "python-telegram-bot", "pymongo"],
+    category: "coalescence",
+    // github: "https://github.com/rishavchanda/Trackify",
+    // webapp: "https://trackify.duckdns.org",
+  },
+  {
+    id: 1,
+    title: "Coalescence Mail Send Using Amazon SES",
+    description: "This project is a Python script that allows you to send emails to clients or recipients using Amazon Simple Email Service (Amazon SES). Amazon SES is a reliable and scalable cloud-based email sending service that enables you to send transactional, marketing, and notification emails. We can Send Customize the Email Contents in HTML Form. ",
+    image: "https://i.postimg.cc/Gm9n2VHr/op.png",
+    tags: [ "Python", "Amazon SES", "Boto3"],
+    category: "coalescence",
+    // github: "https://github.com/rishavchanda/Trackify",
+    // webapp: "https://trackify.duckdns.org",
+  },
+  {
+    id: 2,
+    title: "Mister Crawley - Centralized Data Management for Distributed App Crawling",
+    description: "The Mister Crawley project is a Flask-based web application designed to centralize and streamline the data management process for a distributed web crawling project. With multiple laptops involved in the web crawling process, data retrieval, storage, and sharing can become complex. Mister Crawley provides a solution by serving as a centralized data hub accessible through a set of RESTful APIs deployed on an AWS EC2 instance.",
+    image: "https://i.postimg.cc/XqT6pZgw/op.png",
+    tags: [ "Python", "Flask", "MongoDB", "Restful APIs", "AWS EC2", "AWS SQS"],
+    category: "coalescence",
+    // github: "https://github.com/rishavchanda/Trackify",
+    // webapp: "https://trackify.duckdns.org",
+  },
+  {
+    id: 3,
+    title: "AWS Queue Manager",
+    description: "The AWS Queue Manager project is a Python script designed to manage and interact with Amazon Simple Queue Service (SQS) queues efficiently. As part of an office project, this script streamlines the process of creating, listing, retrieving information about, and managing AWS SQS queues. It provides a user-friendly command-line interface for AWS queue management tasks.",
+    image: "https://i.postimg.cc/rmjSVxMP/op.png",
+    tags: [ "Python", "AWS SQS", "Boto3", "AWS EC2"],
+    category: "coalescence",
+    // github: "https://github.com/rishavchanda/Trackify",
+    // webapp: "https://trackify.duckdns.org",
+  },
+  {
+    id: 4,
+    title: "Email OTP Extractor for Mobile Crawling Apps",
+    description: "The Email OTP Extractor for Mobile Crawling Apps project is a Python script designed to automatically retrieve One-Time Passwords (OTPs) from email accounts and forward them to a centralized office email address. This project is crucial for managing multiple email accounts used in mobile crawling applications, where the OTPs are required for authentication and login purposes. The script extracts the most recent OTPs received in each email account.",
+    image: "https://i.postimg.cc/y6pHQyGp/op.png",
+    tags: [ "Python", "Selenium", "Appium", "IMAP", "BS4"],
+    category: "coalescence",
+    // github: "https://github.com/rishavchanda/Trackify",
+    // webapp: "https://trackify.duckdns.org",
+  },
+  {
+    id: 5,
+    title: "Email OTP Extractor for Mobile Crawling Apps",
+    description: `
+                  1) Send Email using SMTP library\n\n
+                  2) Send Email using boto3 library which is Amazon SES
+                  3) Delete Mail using IMAP4 library 
+                  4) Delete Bin Main using IMAP4 library
+                  5) Move Inbox Mail in Any Lable using IMAP library
+                  6) Cron For Monthly
+                  `,
+    image: "https://i.postimg.cc/0Qky12P8/op.png",
+    tags: [ "Python", "Pandas", "Numpy", "os", "IPython", "Pillow", "csv", "datetime", "time", "decimal", "hashlib", "json", "multiprocessing", "threading", "operator", "random", "tkinter", "appium", "apscheduler",
+            "array", "boto3", "bs4", "bson", "cv2", "decorator", "dotenv", "ffmpeg", "flask", "fs", "geopy", "gettext", "getpass", "hashlib", "http", "ipaddress", "jinja2", "json", "jwt", "lazy_loader", "logging", "math",
+            "matplotlib", "mongoengine", "moviepy", "psutil", "pwd", "pymongo", "redis", "requests", "schedule", "selenium", "shutil", "smtplib", "sys", "turtle", "twilio", "urllib", "virtualenv", "xlsxwriter", "xml", "zipp"
+  ],
     category: "coalescence",
     // github: "https://github.com/rishavchanda/Trackify",
     // webapp: "https://trackify.duckdns.org",
