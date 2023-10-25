@@ -243,7 +243,27 @@ export const education = [
 export const projects = [
   {
     id: 0,
-    title: "Coalescence Telegram Bot for Check-In Check-Out",
+    title: "Coalescence Technologies CLS-Hub-Rest",
+    description: "CLS-Hub is an internal project at Coalescence Technologies, featuring RESTful APIs developed in Node.js and Express, integrated with MongoDB. It enables user attendance tracking, task management, holiday entitlement monitoring, and salary slip downloads. Managers can assign tasks and change task statuses, while admins have access to all employee data and can create client invoices. This system enhances efficiency and transparency in managing various aspects of the organization's daily operations.",
+    image: "https://i.postimg.cc/DfX23VkW/op2.png",
+    tags: [ "NodeJs", "Express", "MongoDB" ],
+    category: "coalescence",
+    // github: "https://github.com/rishavchanda/Trackify",
+    webapp: "https://cls-hub.coalescence.tech/",
+  },
+  {
+    id: 0,
+    title: "Coalescence Technologies CLS-Hub-Web",
+    description: "CLS-Hub is an internal project at Coalescence Technologies, featuring RESTful APIs developed in Node.js and Express, integrated with MongoDB. It enables user attendance tracking, task management, holiday entitlement monitoring, and salary slip downloads. Managers can assign tasks and change task statuses, while admins have access to all employee data and can create client invoices. This system enhances efficiency and transparency in managing various aspects of the organization's daily operations.",
+    image: "https://i.postimg.cc/DfX23VkW/op2.png",
+    tags: [ "React" ],
+    category: "coalescence",
+    // github: "https://github.com/rishavchanda/Trackify",
+    webapp: "https://cls-hub.coalescence.tech/",
+  },
+  {
+    id: 0,
+    title: "Coalescence Technologies Telegram Bot for Check-In Check-Out",
     description: "This project aims to create an Coalescence-Hub Management(https://cls-hub.coalescence.tech) with a Telegram bot integration. The system allows employees to check in and check out of work, request leave or work from home, and track their work hours. Admins can manage employee check-ins and check-outs, approve or reject leave requests, and send important messages and holiday notifications to employees.",
     image: "https://i.postimg.cc/hjb6RQ24/op.png",
     tags: [ "Python", "Flask", "MongoDB", "python-telegram-bot", "pymongo"],
@@ -300,13 +320,23 @@ export const projects = [
                   3) Delete Mail using IMAP4 library 
                   4) Delete Bin Main using IMAP4 library
                   5) Move Inbox Mail in Any Lable using IMAP library
-                  6) Cron For Monthly
+                  6) Cron For Monthly Report Generate
                   `,
     image: "https://i.postimg.cc/0Qky12P8/op.png",
     tags: [ "Python", "Pandas", "Numpy", "os", "IPython", "Pillow", "csv", "datetime", "time", "decimal", "hashlib", "json", "multiprocessing", "threading", "operator", "random", "tkinter", "appium", "apscheduler",
             "array", "boto3", "bs4", "bson", "cv2", "decorator", "dotenv", "ffmpeg", "flask", "fs", "geopy", "gettext", "getpass", "hashlib", "http", "ipaddress", "jinja2", "json", "jwt", "lazy_loader", "logging", "math",
             "matplotlib", "mongoengine", "moviepy", "psutil", "pwd", "pymongo", "redis", "requests", "schedule", "selenium", "shutil", "smtplib", "sys", "turtle", "twilio", "urllib", "virtualenv", "xlsxwriter", "xml", "zipp"
   ],
+    category: "coalescence",
+    // github: "https://github.com/rishavchanda/Trackify",
+    // webapp: "https://trackify.duckdns.org",
+  },
+  {
+    id: 6,
+    title: "Development Environment Setup using Shell Script",
+    description: "The Development Environment Setup Script automates the installation of essential tools like Python, Java, Node.js, MongoDB, Android Studio, and more. It configures environment variables and checks and displays the versions of installed components, simplifying the setup process for developers.",
+    image: "https://i.postimg.cc/Gt56DsVp/op.png",
+    tags: [ "Bash Script"],
     category: "coalescence",
     // github: "https://github.com/rishavchanda/Trackify",
     // webapp: "https://trackify.duckdns.org",
