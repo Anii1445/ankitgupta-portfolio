@@ -242,7 +242,7 @@ export const education = [
 
 export const projects = [
   {
-    id: 0,
+    id: 1,
     title: "Coalescence Technologies CLS-Hub-Rest",
     description: "CLS-Hub is an internal project at Coalescence Technologies, featuring RESTful APIs developed in Node.js and Express, integrated with MongoDB. It enables user attendance tracking, task management, holiday entitlement monitoring, and salary slip downloads. Managers can assign tasks and change task statuses, while admins have access to all employee data and can create client invoices. This system enhances efficiency and transparency in managing various aspects of the organization's daily operations.",
     image: "https://i.postimg.cc/DfX23VkW/op2.png",
@@ -252,7 +252,7 @@ export const projects = [
     webapp: "https://cls-hub.coalescence.tech/",
   },
   {
-    id: 0,
+    id: 2,
     title: "Coalescence Technologies CLS-Hub-Web",
     description: "CLS-Hub is an internal project at Coalescence Technologies, featuring RESTful APIs developed in Node.js and Express, integrated with MongoDB. It enables user attendance tracking, task management, holiday entitlement monitoring, and salary slip downloads. Managers can assign tasks and change task statuses, while admins have access to all employee data and can create client invoices. This system enhances efficiency and transparency in managing various aspects of the organization's daily operations.",
     image: "https://i.postimg.cc/DfX23VkW/op2.png",
@@ -262,7 +262,7 @@ export const projects = [
     webapp: "https://cls-hub.coalescence.tech/",
   },
   {
-    id: 0,
+    id: 3,
     title: "Coalescence Technologies Telegram Bot for Check-In Check-Out",
     description: "This project aims to create an Coalescence-Hub Management(https://cls-hub.coalescence.tech) with a Telegram bot integration. The system allows employees to check in and check out of work, request leave or work from home, and track their work hours. Admins can manage employee check-ins and check-outs, approve or reject leave requests, and send important messages and holiday notifications to employees.",
     image: "https://i.postimg.cc/hjb6RQ24/op.png",
@@ -272,7 +272,7 @@ export const projects = [
     // webapp: "https://trackify.duckdns.org",
   },
   {
-    id: 1,
+    id: 4,
     title: "Coalescence Mail Send Using Amazon SES",
     description: "This project is a Python script that allows you to send emails to clients or recipients using Amazon Simple Email Service (Amazon SES). Amazon SES is a reliable and scalable cloud-based email sending service that enables you to send transactional, marketing, and notification emails. We can Send Customize the Email Contents in HTML Form. ",
     image: "https://i.postimg.cc/Gm9n2VHr/op.png",
@@ -282,7 +282,7 @@ export const projects = [
     // webapp: "https://trackify.duckdns.org",
   },
   {
-    id: 2,
+    id: 5,
     title: "Mister Crawley - Centralized Data Management for Distributed App Crawling",
     description: "The Mister Crawley project is a Flask-based web application designed to centralize and streamline the data management process for a distributed web crawling project. With multiple laptops involved in the web crawling process, data retrieval, storage, and sharing can become complex. Mister Crawley provides a solution by serving as a centralized data hub accessible through a set of RESTful APIs deployed on an AWS EC2 instance.",
     image: "https://i.postimg.cc/XqT6pZgw/op.png",
@@ -292,7 +292,7 @@ export const projects = [
     // webapp: "https://trackify.duckdns.org",
   },
   {
-    id: 3,
+    id: 6,
     title: "AWS Queue Manager",
     description: "The AWS Queue Manager project is a Python script designed to manage and interact with Amazon Simple Queue Service (SQS) queues efficiently. As part of an office project, this script streamlines the process of creating, listing, retrieving information about, and managing AWS SQS queues. It provides a user-friendly command-line interface for AWS queue management tasks.",
     image: "https://i.postimg.cc/rmjSVxMP/op.png",
@@ -302,7 +302,7 @@ export const projects = [
     // webapp: "https://trackify.duckdns.org",
   },
   {
-    id: 4,
+    id: 7,
     title: "Email OTP Extractor for Mobile Crawling Apps",
     description: "The Email OTP Extractor for Mobile Crawling Apps project is a Python script designed to automatically retrieve One-Time Passwords (OTPs) from email accounts and forward them to a centralized office email address. This project is crucial for managing multiple email accounts used in mobile crawling applications, where the OTPs are required for authentication and login purposes. The script extracts the most recent OTPs received in each email account.",
     image: "https://i.postimg.cc/y6pHQyGp/op.png",
@@ -312,7 +312,7 @@ export const projects = [
     // webapp: "https://trackify.duckdns.org",
   },
   {
-    id: 5,
+    id: 8,
     title: "Email OTP Extractor for Mobile Crawling Apps",
     description: `
                   1) Send Email using SMTP library\n\n
@@ -332,7 +332,7 @@ export const projects = [
     // webapp: "https://trackify.duckdns.org",
   },
   {
-    id: 6,
+    id: 9,
     title: "Development Environment Setup using Shell Script",
     description: "The Development Environment Setup Script automates the installation of essential tools like Python, Java, Node.js, MongoDB, Android Studio, and more. It configures environment variables and checks and displays the versions of installed components, simplifying the setup process for developers.",
     image: "https://i.postimg.cc/Gt56DsVp/op.png",
@@ -340,6 +340,36 @@ export const projects = [
     category: "coalescence",
     // github: "https://github.com/rishavchanda/Trackify",
     // webapp: "https://trackify.duckdns.org",
+  },
+  {
+    id: 10,
+    title: "Scrape Data from Apps",
+    description: "Our project focuses on implementing multi-processing and multi-threading techniques to efficiently crawl data from two popular food ordering mobile applications. By harnessing the power of multiple devices, we aim to gather extensive data in real-time, enhancing the speed and accuracy of our data collection process. This approach ensures that we provide up-to-date and comprehensive information, which can be valuable for market analysis and competitive insights in the food delivery industry.",
+    image: "https://i.postimg.cc/Y25Zn31H/op.png",
+    tags: [ "Python", "Appium", "Appium-Python-Client", "Beautifulsoup4" ],
+    category: "coalescence",
+    // github: "https://github.com/rishavchanda/Trackify",
+    // webapp: "https://trackify.duckdns.org",
+  },
+  {
+    id: 11,
+    title: "Scrape Data from Web",
+    description: "The Web Scraping Aggregator project is a comprehensive effort to collect and organize data from various websites. It involves creating scrapers for multiple websites to extract specific information such as prices, product details, news articles, or any other data of interest. By centralizing this information, the project aims to provide a valuable resource for data analysis, market research, and competitive intelligence. The use of web scraping technology allows for efficient and automated data collection, enabling data-driven insights and informed decision-making.",
+    image: "https://i.postimg.cc/fynCK81q/op.png",
+    tags: [ "Python", "Selenium", "Beautifulsoup4", "Request" ],
+    category: "coalescence",
+    // github: "https://github.com/rishavchanda/Trackify",
+    // webapp: "https://trackify.duckdns.org",
+  },
+  {
+    id: 12,
+    title: "React Shopping Web App with Context API",
+    description: "React Shopping Web App leverages the power of React.js and Context API to create a seamless shopping experience. Users can explore a variety of categories, including clothing, groceries, kitchen items, and accessories. To make a purchase or proceed to the checkout, users must log in with predefined credentials.    Every user starts with a wallet balance of 10,000 units, which decreases as they make purchases. This project offers a user-friendly and secure platform for online shopping, demonstrating the practical application of state management and user authentication in a modern web app.",
+    image: "https://i.postimg.cc/Qdk4QjFT/op.png",
+    tags: [ "React.JS", "Reactstrap", "Context API" ],
+    category: "coalescence",
+    github: "https://github.com/rahulgupta020/shopping-webapp-reactjs/",
+    webapp: "https://rahulgupta020.github.io/shopping-webapp-reactjs/",
   },
   {
     id: 9,
