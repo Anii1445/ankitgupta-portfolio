@@ -27,16 +27,16 @@ const Projects = ({openModal,setOpenModal}) => {
             <ToggleButton value="coalescence" onClick={() => setToggle('coalescence')}>COALESCENCE TECHNOLOGIES</ToggleButton>
           }
           <Divider />
-          {toggle === 'android app' ?
-            <ToggleButton active value="android app" onClick={() => setToggle('android app')}>TRACKPOINT GPS</ToggleButton>
+          {toggle === 'trackpoint' ?
+            <ToggleButton active value="trackpoint" onClick={() => setToggle('trackpoint')}>TRACKPOINT GPS</ToggleButton>
             :
-            <ToggleButton value="android app" onClick={() => setToggle('android app')}>TRACKPOINT GPS</ToggleButton>
+            <ToggleButton value="trackpoint" onClick={() => setToggle('trackpoint')}>TRACKPOINT GPS</ToggleButton>
           }
           <Divider />
-          {toggle === 'machine learning' ?
-            <ToggleButton active value="machine learning" onClick={() => setToggle('machine learning')}>PERSONAL PROJECT</ToggleButton>
+          {toggle === 'personal' ?
+            <ToggleButton active value="personal" onClick={() => setToggle('personal')}>PERSONAL PROJECT</ToggleButton>
             :
-            <ToggleButton value="machine learning" onClick={() => setToggle('machine learning')}>PERSONAL PROJECT</ToggleButton>
+            <ToggleButton value="personal" onClick={() => setToggle('personal')}>PERSONAL PROJECT</ToggleButton>
           }
         </ToggleButtonGroup>
         <CardContainer>
