@@ -6,7 +6,7 @@ export const HeroContainer = styled.div`
   display: flex;
   justify-content: center;
   position: relative;
-  padding: 80px 30px;
+  padding: 75px 30px 70px;
   @media (max-width: 960px) {
     padding: 66px 16px;
   }
@@ -155,6 +155,7 @@ export const SubTitle = styled.div`
   line-height: 32px;
   margin-bottom: 42px;
   color: ${({ theme }) => theme.text_primary + 95};
+  text-align: justify;
 
   @media (max-width: 960px) {
     text-align: center;

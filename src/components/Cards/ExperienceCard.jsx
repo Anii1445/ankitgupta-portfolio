@@ -15,13 +15,14 @@ const Document = styled.img`
 
 const Description = styled.div`
     width: 100%;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 400;
     color: ${({ theme }) => theme.text_primary + 99};
     margin-bottom: 10px;
     @media only screen and (max-width: 768px){
         font-size: 12px;
     }
+    text-align: justify;
 `
 
 const Span = styled.span`
@@ -34,7 +35,7 @@ text-overflow: ellipsis;
 `
 
 const Card = styled.div`
-    width: 650px;
+    width: 680px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
     padding: 12px 16px;
@@ -76,10 +77,11 @@ const Top = styled.div`
 `
 
 const Image = styled.img`
-    height: 50px;
+    height: 76px;
     background-color: #000;
     border-radius: 10px;
-    margin-top: 4px;
+    margin-top: 7px;
+    margin-right: 10px;
     @media only screen and (max-width: 768px){
         height: 40px;
     }
@@ -102,7 +104,7 @@ const Role = styled.div`
 `
 
 const Company = styled.div`
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 500;
     color: ${({ theme }) => theme.text_secondary + 99};
     @media only screen and (max-width: 768px){
@@ -111,8 +113,8 @@ const Company = styled.div`
 `
 
 const Date = styled.div`
-    font-size: 12px;
-    font-weight: 400;
+    font-size: 13px;
+    font-weight: 450;
     color: ${({ theme }) => theme.text_secondary + 80};
     @media only screen and (max-width: 768px){
         font-size: 10px;
@@ -142,17 +144,19 @@ const Skill = styled.div`
     }
 `
 
-
-
 const ExperienceCard = ({ experience }) => {
+
     return (
         <Card>
             <Top>
-                <Image src={experience.img} />
+                <a href={experience.website} target="_blank" rel="noopener noreferrer">
+                    <Image src={experience.img} />
+                </a>
                 <Body>
                     <Role>{experience.role}</Role>
                     <Company>{experience.company}</Company>
                     <Date>{experience.date}</Date>
+                    <Date>{experience.city}</Date>
                 </Body>
             </Top>
             <Description>

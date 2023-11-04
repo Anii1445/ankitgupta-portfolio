@@ -118,6 +118,7 @@ const ContactButton = styled.input`
   color: ${({ theme }) => theme.text_primary};
   font-size: 18px;
   font-weight: 600;
+  cursor: pointer;
 `
 
 
@@ -132,6 +133,10 @@ const Contact = () => {
   const [subject, setSubject] = React.useState("");
   const [message, setMessage] = React.useState("");
 
+  const [emailError, setEmailError] = React.useState("");
+  const [nameError, setNameError] = React.useState("");
+  const [subjectError, setSubjectError] = React.useState("");
+  const [messageError, setMessageError] = React.useState("");
 
   const handleEmail = (e) => {
     setEmail(e.target.value)
@@ -146,23 +151,55 @@ const Contact = () => {
     setMessage(e.target.value)
   }
 
+  const validateForm = () => {
+    let isValid = true;
+
+    if (!email) {
+      setEmailError("Email is required.");
+      isValid = false;
+    } else if (!/\S+@\S+\.\S+/.test(email)) {
+      setEmailError("Invalid email format.");
+      isValid = false;
+    } else {
+      setEmailError("");
+    }
+
+    if (!name) {
+      setNameError("Name is required.");
+      isValid = false;
+    } else {
+      setNameError("");
+    }
+
+    if (!subject) {
+      setSubjectError("Subject is required.");
+      isValid = false;
+    } else {
+      setSubjectError("");
+    }
+
+    if (!message) {
+      setMessageError("Message is required.");
+      isValid = false;
+    } else {
+      setMessageError("");
+    }
+
+    return isValid;
+  };
+
   const handleSubmit = (e) => {
-    console.log("handleSubmit function")
     e.preventDefault();
-    console.log("email = ",email);
-    console.log("name = ",name);
-    console.log("subject = ",subject);
-    console.log("message = ",message);
-
-    // emailjs.sendForm('service_tox7kqs', 'template_nv7k7mj', form.current, 'SybVGsYS52j2TfLbi')
-    //   .then((result) => {
-    //     setOpen(true);
-    //     form.current.reset();
-    //   }, (error) => {
-    //     console.log(error.text);
-    //   });
+    if (validateForm()) {
+    emailjs.sendForm('service_i73g0tv', 'template_0ycyyoi', form.current, 'cEHeSThGG84ncGRX5')
+      .then((result) => {
+        alert('Email sent successfully!');
+        form.current.reset();
+      }, (error) => {
+        console.log(error.text);
+      });
   }
-
+  };
 
 
   return (
@@ -173,18 +210,15 @@ const Contact = () => {
         <ContactForm ref={form} onSubmit={handleSubmit}>
           <ContactTitle>Email Me 🚀</ContactTitle>
           <ContactInput placeholder="Your Email" name="from_email" onChange={handleEmail} />
+          <span style={{ color: 'red' }}>{emailError}</span>
           <ContactInput placeholder="Your Name" name="from_name" onChange={handleName} />
+          <span style={{ color: 'red' }}>{nameError}</span>
           <ContactInput placeholder="Subject" name="subject" onChange={handleSubject} />
+          <span style={{ color: 'red' }}>{subjectError}</span>
           <ContactInputMessage placeholder="Message" rows="4" name="message" onChange={handleMessage} />
+          <span style={{ color: 'red' }}>{messageError}</span>
           <ContactButton type="submit" value="Send" />
         </ContactForm>
-        <Snackbar
-          open={open}
-          autoHideDuration={6000}
-          onClose={()=>setOpen(false)}
-          message="Email sent successfully!"
-          severity="success"
-        />
       </Wrapper>
     </Container>
   )

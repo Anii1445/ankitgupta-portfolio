@@ -24,10 +24,10 @@ const Navbar = () => {
         </MobileIcon>
         <NavItems>
           <NavLink href="#about">AboutMe</NavLink>
+          <NavLink href='#skills'>Skills</NavLink>
           <NavLink href='#experience'>Experience</NavLink>
           <NavLink href='#projects'>Projects</NavLink>
           <NavLink href='#education'>Education</NavLink>
-          <NavLink href='#skills'>Skills</NavLink>
           <NavLink href='#contact'>Contact</NavLink>
 
         </NavItems>
