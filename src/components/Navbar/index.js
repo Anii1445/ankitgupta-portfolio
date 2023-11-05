@@ -10,6 +10,8 @@ import { useTheme } from 'styled-components';
 import { styled } from "@mui/material/styles";
 import FormControlLabel from "@mui/material/FormControlLabel";
 import Switch from "@mui/material/Switch";
+import { ThemeProvider } from "styled-components";
+import { darkTheme, lightTheme } from '../../utils/Themes'
 
 const MaterialUISwitch = styled(Switch)(({ theme }) => ({
   width: 62,
@@ -58,71 +60,81 @@ const MaterialUISwitch = styled(Switch)(({ theme }) => ({
   }
 }));
 
-const Navbar = () => {
+const Navbar = ({ toggleDarkMode }) => {
 
   const [isOpen, setIsOpen] = React.useState(false);
   const theme = useTheme()
+  const [darkMode, setDarkMode] = React.useState(true);
+
 
   return (
-    <Nav>
-      <NavbarContainer>
-        <NavLogo to='/'>
-          <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}>
-            <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
-          </a>
-        </NavLogo>
-        <MobileIcon>
-          <FaBars onClick={() => {
-            setIsOpen(!isOpen)
-          }} />
-        </MobileIcon>
-        <NavItems>
-          <NavLink href="#about">AboutMe</NavLink>
-          <NavLink href='#skills'>Skills</NavLink>
-          <NavLink href='#experience'>Experience</NavLink>
-          <NavLink href='#projects'>Projects</NavLink>
-          <NavLink href='#education'>Education</NavLink>
-          <NavLink href='#contact'>Contact</NavLink>
+    <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
+      <Nav>
+        <NavbarContainer>
+          <NavLogo to='/'>
+            <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}>
+              <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
+            </a>
+          </NavLogo>
+          <MobileIcon>
+            <FaBars onClick={() => {
+              setIsOpen(!isOpen)
+            }} />
+          </MobileIcon>
+          <NavItems>
+            <NavLink href="#about">AboutMe</NavLink>
+            <NavLink href='#skills'>Skills</NavLink>
+            <NavLink href='#experience'>Experience</NavLink>
+            <NavLink href='#projects'>Projects</NavLink>
+            <NavLink href='#education'>Education</NavLink>
+            <NavLink href='#contact'>Contact</NavLink>
 
-        </NavItems>
-        {/* <ButtonContainer>
+          </NavItems>
+          {/* <ButtonContainer>
           <GitHubButton href={Bio.github} target="_blank">Github Profile</GitHubButton>
         </ButtonContainer> */}
-        <ButtonContainer>
-          <LinkedInButton href={Bio.linkedin} target="_blank">LinkedIn Profile</LinkedInButton>
-        </ButtonContainer>
-        <ButtonContainer>
-          <FormControlLabel
-            control={<MaterialUISwitch sx={{ m: 1 }} defaultChecked />}
-          />
-        </ButtonContainer>
-        {
-          isOpen &&
-          <MobileMenu isOpen={isOpen}>
-            <MobileLink href="#about" onClick={() => {
-              setIsOpen(!isOpen)
-            }}>About</MobileLink>
-            <MobileLink href='#skills' onClick={() => {
-              setIsOpen(!isOpen)
-            }}>Skills</MobileLink>
-            <MobileLink href='#experience' onClick={() => {
-              setIsOpen(!isOpen)
-            }}>Experience</MobileLink>
-            <MobileLink href='#projects' onClick={() => {
-              setIsOpen(!isOpen)
-            }}>Projects</MobileLink>
-            <MobileLink href='#education' onClick={() => {
-              setIsOpen(!isOpen)
-            }}>Education</MobileLink>
-            <MobileLink href='#contact' onClick={() => {
-              setIsOpen(!isOpen)
-            }}>Contact</MobileLink>
-            <GitHubButton style={{ padding: '10px 16px', background: `${theme.primary}`, color: 'white', width: 'max-content' }} href={Bio.github} target="_blank">Github Profile</GitHubButton>
-            <LinkedInButton style={{ padding: '10px 16px', background: `${theme.primary_blue}`, color: 'white', width: 'max-content' }} href={Bio.linkedin} target="_blank">LinkedIn Profile</LinkedInButton>
-          </MobileMenu>
-        }
-      </NavbarContainer>
-    </Nav>
+          <ButtonContainer>
+            <LinkedInButton href={Bio.linkedin} target="_blank">LinkedIn Profile</LinkedInButton>
+          </ButtonContainer>
+          <ButtonContainer>
+            <FormControlLabel
+              // control={<MaterialUISwitch sx={{ m: 1 }} defaultChecked  />}
+              control={<MaterialUISwitch sx={{ m: 1 }} checked={theme === darkTheme} onChange={toggleDarkMode} />}
+            />
+          </ButtonContainer>
+          {
+            isOpen &&
+            <MobileMenu isOpen={isOpen}>
+              <MobileLink href="#about" onClick={() => {
+                setIsOpen(!isOpen)
+              }}>About</MobileLink>
+              <MobileLink href='#skills' onClick={() => {
+                setIsOpen(!isOpen)
+              }}>Skills</MobileLink>
+              <MobileLink href='#experience' onClick={() => {
+                setIsOpen(!isOpen)
+              }}>Experience</MobileLink>
+              <MobileLink href='#projects' onClick={() => {
+                setIsOpen(!isOpen)
+              }}>Projects</MobileLink>
+              <MobileLink href='#education' onClick={() => {
+                setIsOpen(!isOpen)
+              }}>Education</MobileLink>
+              <MobileLink href='#contact' onClick={() => {
+                setIsOpen(!isOpen)
+              }}>Contact</MobileLink>
+              {/* <GitHubButton style={{ padding: '10px 16px', background: `${theme.primary}`, color: 'white', width: 'max-content' }} href={Bio.github} target="_blank">Github Profile</GitHubButton> */}
+              <LinkedInButton style={{ padding: '10px 16px', background: `${theme.primary_blue}`, color: 'white', width: 'max-content' }} href={Bio.linkedin} target="_blank">LinkedIn Profile</LinkedInButton>
+              <FormControlLabel
+                // control={<MaterialUISwitch sx={{ m: 1 }} defaultChecked  />}
+                control={<MaterialUISwitch sx={{ m: 1 }} checked={theme === darkTheme} onChange={toggleDarkMode} />}
+              />
+            </MobileMenu>
+          }
+        </NavbarContainer>
+      </Nav>
+    </ThemeProvider>
+
   )
 }
 
