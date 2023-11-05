@@ -17,7 +17,7 @@ const Container = styled.div`
     position: relative;
     z-index: 1;
     align-items: center;
-    padding: 0px 0px 60px 0px;
+    padding: 40px 0px 60px 0px;
     @media (max-width: 960px) {
         padding: 0px;
     }
@@ -35,6 +35,7 @@ const Wrapper = styled.div`
     gap: 12px;
     @media (max-width: 960px) {
         flex-direction: column;
+        margin-top:40px;
     }
 `;
 

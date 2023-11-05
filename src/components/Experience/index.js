@@ -19,7 +19,7 @@ const Container = styled.div`
     align-items: center;
     padding: 45px 0px 80px 0px;
     @media (max-width: 960px) {
-        padding: 0px;
+        padding-top: 40px;
     }
 `;
 
@@ -58,6 +58,8 @@ const Desc = styled.div`
     @media (max-width: 768px) {
         margin-top: 12px;
         font-size: 16px;
+        text-align: justify;
+        margin: 0px 15px 0px 15px;
     }
 `;
 

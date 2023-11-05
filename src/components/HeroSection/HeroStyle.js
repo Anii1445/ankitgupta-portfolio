@@ -89,6 +89,7 @@ export const HeroRightContainer = styled.div`
 
   @media (max-width: 640px) {
     margin-bottom: 30px;
+    padding-top:40px;
   }
 `;
 
@@ -164,6 +165,8 @@ export const SubTitle = styled.div`
   @media (max-width: 640px) {
     font-size: 16px;
     line-height: 32px;
+    text-align: justify;
+    margin: 0px 10px 0px 10px;
   }
 `;
 
@@ -199,6 +202,7 @@ export const ResumeButton = styled.a`
     @media (max-width: 640px) {
         padding: 12px 0;
         font-size: 18px;
+        margin-top:15px;
     } 
 
 `;

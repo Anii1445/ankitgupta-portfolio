@@ -41,10 +41,12 @@ margin-top: 12px;
 export const Desc = styled.div`
     font-size: 18px;
     text-align: center;
-    max-width: 600px;
+    max-width: 710px;
     color: ${({ theme }) => theme.text_secondary};
     @media (max-width: 768px) {
         font-size: 16px;
+    margin: 0px 10px 0px 10px;
+
     }
 `;
 
@@ -134,7 +136,7 @@ const Skills = () => {
               <SkillList>
                 {skill.skills.map((item) => (
                   <SkillItem>
-                    <SkillImage src={item.image}/>
+                    <SkillImage src={item.image} />
                     {item.name}
                   </SkillItem>
                 ))}

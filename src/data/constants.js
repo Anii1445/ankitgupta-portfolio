@@ -13,9 +13,10 @@ export const Bio = {
   resume:
     "https://drive.google.com/file/d/1ffZrcMcn8UatXGIaautbbqpV7ADNaETA/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/rahulgupta020/",
-  twitter: "https://twitter.com/RishavChanda",
-  insta: "https://www.instagram.com/rishav_chanda/",
-  facebook: "https://www.facebook.com/rishav.chanda.165/",
+  twitter: "https://twitter.com/rahulgupta020",
+  insta: "https://www.instagram.com/rahul__gupta1998/",
+  facebook: "https://www.facebook.com/profile.php?id=100009202494291",
+  youtube: "https://www.youtube.com/simplesnipcode",
 };
 
 export const skills = [
@@ -397,7 +398,7 @@ export const projects = [
     tags: [ "React.JS", "Reactstrap", "Axios" ],
     category: "coalescence",
     github: "https://github.com/rahulgupta020/mamemaker/",
-    webapp: "https://rahulgupta020.github.io/memehub/",
+    webapp: "https://rahulgupta020.github.io/mamemaker/",
   },
   {
     id: 3,
@@ -407,7 +408,7 @@ export const projects = [
     tags: [ "React.JS", "Reactstrap", "Axios" ],
     category: "personal",
     github: "https://github.com/rahulgupta020/mamemaker/",
-    webapp: "https://rahulgupta020.github.io/memehub/",
+    webapp: "https://rahulgupta020.github.io/mamemaker/",
   },
   {
     id: 15,
