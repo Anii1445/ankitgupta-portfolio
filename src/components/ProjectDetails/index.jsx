@@ -205,7 +205,12 @@ const index = ({ openModal, setOpenModal }) => {
                             <Tag key={tag.id}>{tag}</Tag>
                         ))}
                     </Tags>
-                    <Desc>{project?.description}</Desc>
+                    <Desc>
+                        {project?.description.split('\n').map((item, index) => (
+                            <div key={index}>{item.trim()}</div>
+                        ))}
+                    </Desc>
+
                     {project.member && (
                         <>
                             <Label>Members</Label>
@@ -214,10 +219,10 @@ const index = ({ openModal, setOpenModal }) => {
                                     <Member key={member.id}>
                                         <MemberImage src={member.img} />
                                         <MemberName>{member.name}</MemberName>
-                                        <a href={member.github} target="new" style={{textDecoration: 'none', color: 'inherit'}}>
+                                        <a href={member.github} target="new" style={{ textDecoration: 'none', color: 'inherit' }}>
                                             <GitHub />
                                         </a>
-                                        <a href={member.linkedin} target="new" style={{textDecoration: 'none', color: 'inherit'}}>
+                                        <a href={member.linkedin} target="new" style={{ textDecoration: 'none', color: 'inherit' }}>
                                             <LinkedIn />
                                         </a>
                                     </Member>
@@ -226,9 +231,13 @@ const index = ({ openModal, setOpenModal }) => {
                         </>
                     )}
                     <ButtonGroup>
+                        {project?.github ? <Button dull href={project?.github} target='new'>View Code</Button> : null}
+                        {project?.webapp ? <Button href={project?.webapp} target='new'>View Live App</Button> : null}
+                    </ButtonGroup>
+                    {/* <ButtonGroup>
                         <Button dull href={project?.github} target='new'>View Code</Button>
                         <Button href={project?.webapp} target='new'>View Live App</Button>
-                    </ButtonGroup>
+                    </ButtonGroup> */}
                 </Wrapper>
             </Container>
 

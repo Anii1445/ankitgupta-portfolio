@@ -123,6 +123,9 @@ const ContactButton = styled.input`
   cursor: pointer;
 `
 
+const service_id=process.env.REACT_APP_SERVICE_ID;
+const template_id=process.env.REACT_APP_TEMPLATE_ID;
+const user_id=process.env.REACT_APP_USER_ID;
 
 
 const Contact = () => {
@@ -193,14 +196,14 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (validateForm()) {
-    emailjs.sendForm('service_i73g0tv', 'template_0ycyyoi', form.current, 'cEHeSThGG84ncGRX5')
-      .then((result) => {
-        alert('Email sent successfully!');
-        form.current.reset();
-      }, (error) => {
-        console.log(error.text);
-      });
-  }
+      emailjs.sendForm(service_id, template_id, form.current, user_id)
+        .then((result) => {
+          alert('Email sent successfully!');
+          form.current.reset();
+        }, (error) => {
+          console.log(error.text);
+        });
+    }
   };
 
 

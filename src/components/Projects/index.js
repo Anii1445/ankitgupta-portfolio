@@ -15,12 +15,6 @@ const Projects = ({openModal,setOpenModal}) => {
           I have worked on a wide range of projects. Here are my projects.
         </Desc>
         <ToggleButtonGroup >
-          {/* {toggle === 'all' ?
-            <ToggleButton active value="all" onClick={() => setToggle('all')}>All</ToggleButton>
-            :
-            <ToggleButton value="all" onClick={() => setToggle('all')}>All</ToggleButton>
-          } */}
-          {/* <Divider /> */}
           {toggle === 'coalescence' ?
             <ToggleButton active value="coalescence" onClick={() => setToggle('coalescence')}>COALESCENCE TECHNOLOGIES</ToggleButton>
             :
