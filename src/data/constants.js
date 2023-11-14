@@ -11,7 +11,7 @@ export const Bio = {
     "I'm a versatile software engineer with expertise in MERN stack web development. I create RESTful APIs using Node.js, Express, and Flask, and I'm proficient in Python and JavaScript. I thrive on taking on new challenges, leveraging Python scripting for data extraction and automation. My goal is to make a meaningful contribution in software development.",
   github: "https://github.com/rahulgupta020",
   resume:
-    "https://drive.google.com/file/d/1nY9beu643sqF0ORd96YRV1tqrj8gkiIP/view?usp=sharing",
+    "https://drive.google.com/file/d/1qPWViGScFAzKbmnmL0-dwVaKFFeWA7hL/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/rahulgupta020/",
   twitter: "https://twitter.com/rahulgupta020",
   insta: "https://www.instagram.com/rahul__gupta1998/",
