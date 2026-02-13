@@ -15,10 +15,22 @@ const Projects = ({openModal,setOpenModal}) => {
           I have worked on a wide range of projects. Here are my projects.
         </Desc>
         <ToggleButtonGroup >
-          {toggle === 'coalescence' ?
-            <ToggleButton active value="coalescence" onClick={() => setToggle('coalescence')}>COALESCENCE TECHNOLOGIES</ToggleButton>
+          {toggle === 'navgrahaa' ?
+            <ToggleButton active value="navgrahaa" onClick={() => setToggle('navgrahaa')}>Navgrahaa Gems</ToggleButton>
             :
-            <ToggleButton value="coalescence" onClick={() => setToggle('coalescence')}>COALESCENCE TECHNOLOGIES</ToggleButton>
+            <ToggleButton value="navgrahaa" onClick={() => setToggle('navgrahaa')}>Navgrahaa Gems</ToggleButton>
+          }
+          <Divider />
+          {toggle === 'facts' ?
+            <ToggleButton active value="facts" onClick={() => setToggle('facts')}>Facts Online</ToggleButton>
+            :
+            <ToggleButton value="facts" onClick={() => setToggle('facts')}>Facts Online</ToggleButton>
+          }
+          <Divider />
+          {toggle === 'coalescence' ?
+            <ToggleButton active value="coalescence" onClick={() => setToggle('coalescence')}>COALESCENCE TECH</ToggleButton>
+            :
+            <ToggleButton value="coalescence" onClick={() => setToggle('coalescence')}>COALESCENCE TECH</ToggleButton>
           }
           <Divider />
           {toggle === 'trackpoint' ?
@@ -35,7 +47,7 @@ const Projects = ({openModal,setOpenModal}) => {
         </ToggleButtonGroup>
         <CardContainer>
           {toggle === 'all' && projects
-            .filter((item) => item.category == "coalescence")
+            .filter((item) => item.category == "navgrahaa")
             .map((project) => (
               <ProjectCard project={project} openModal={openModal} setOpenModal={setOpenModal}/>
             ))}

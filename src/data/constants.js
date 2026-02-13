@@ -1,22 +1,16 @@
 export const Bio = {
-  name: "Rahul Gupta",
+  name: "Ankit Gupta",
   roles: [
     "Full Stack Developer",
     "MERN Stack Developer",
-    "Python Developer",
-    "Programmer",
-    "Youtuber"
+    "Web Developer",
   ],
   description:
-    "I'm a versatile software engineer with expertise in MERN stack web development. I create RESTful APIs using Node.js, Express, and Flask, and I'm proficient in Python and JavaScript. I thrive on taking on new challenges, leveraging Python scripting for data extraction and automation. My goal is to make a meaningful contribution in software development.",
-  github: "https://github.com/rahulgupta020",
-  resume:
-    "https://drive.google.com/file/d/1VvRweWZCHjosGwTJ5D5jXhrNMDQe715T/view?usp=sharing",
-  linkedin: "https://www.linkedin.com/in/rahulgupta020/",
-  twitter: "https://twitter.com/rahulgupta020",
-  insta: "https://www.instagram.com/rahul__gupta1998/",
-  facebook: "https://www.facebook.com/profile.php?id=100009202494291",
-  youtube: "https://www.youtube.com/simplesnipcode",
+    "I am Ankit Ramji Gupta, a Software Developer with 2+ years of experience building scalable backend systems, RESTful APIs, and full-stack solutions. Skilled in RESTAPI, JavaScript, PHP, ExpressJS, ReactJS, SQL, MongoDB, Bootstrap and MaterialUI, I deliver high-performance tools like analytics dashboards, automation pipelines, and management systems. Passionate about problem-solving, optimization, and sharing knowledge through coding tutorials and competitive programming.",
+  github: "https://github.com/Anii1445", 
+  resume: "https://drive.google.com/file/d/1dHGNmxsR_5jo8BremPwf4_8na21OHY7y/view?usp=sharing",
+  linkedin: "https://www.linkedin.com/in/ankitgupta14998/",
+  insta: "https://www.instagram.com/ankitguptaa.___/",
 };
 
 export const skills = [
@@ -48,9 +42,8 @@ export const skills = [
           "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
       },
       {
-        name: "Android XML",
-        image:
-          "https://user-images.githubusercontent.com/74607521/218515659-9c9fecb9-1d89-4486-8062-14bfa0566a8b.png",
+        name: "Material UI",
+        image: "https://vectorseek.com/wp-content/uploads/2023/09/Material-UI-Logo-Vector.svg-.png"
       },
     ],
   },
@@ -58,8 +51,8 @@ export const skills = [
     title: "Backend",
     skills: [
       {
-        name: "Flask",
-        image: "https://p7.hiclipart.com/preview/654/56/983/flask-web-framework-python-software-framework-jinja-flask.jpg",
+        name: "RESTful API",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn_3MFhCzXcwI3GWIDTsWJg2HXDTG7TwGovA&s",
       },
       {
         name: "Node Js",
@@ -76,10 +69,6 @@ export const skills = [
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
       },
       {
-        name: "Redis",
-        image: "https://logowik.com/content/uploads/images/redis.jpg",
-      },
-      {
         name: "MySQL",
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
@@ -90,10 +79,9 @@ export const skills = [
     title: "Programming Langauge",
     skills: [
       {
-        name: "Python",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
-      },
+        name: "PHP",
+        image: 
+        "https://s.yimg.com/zb/imgv1/7b9922e6-230e-39ac-b816-dc0dad15b069/t_500x300"},
       {
         name: "JavaScript",
         image:
@@ -110,19 +98,19 @@ export const skills = [
     title: "Others",
     skills: [
       {
-        name: "AWS",
+        name: "Vercel",
         image:
-          "https://www.cyberark.com/wp-content/uploads/2022/01/aws-partner-interior-hero.jpeg",
+         "https://s.yimg.com/zb/imgv1/0c4fbe85-4c1e-3969-b733-9f1dbe105150/t_500x300",
       },
       {
         name: "GitLab",
         image:
-          "https://yt3.googleusercontent.com/R6P5skGdZJeM1bebvt3ILeU8k-9tiqE5T198RmBH8SoGXH2gk_Lk-45uZoq6X6pW4a4c9Sqn=s900-c-k-c0x00ffffff-no-rj",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP6_XohJqexcGEaouSffpdWN7ymuJjY68hPQ&s",
       },
       {
         name: "GitHub",
         image:
-          "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSD-lqBaxKukiknT-rHi5aWsL2-i24oMh_iw&s",
       },
 
       {
@@ -138,8 +126,12 @@ export const skills = [
       {
         name: "Postman",
         image:
-          "https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ5yPOAbr-LrEa8ANO47RBo4f2txsvjPL-fw&s",
       },
+      {
+        name: "Render",
+        image: "https://tse2.mm.bing.net/th/id/OIP.FC33go2kga0F2SDQlnP-DgHaDt?pid=Api&P=0&h=220"
+      }
     ],
   },
 ];
@@ -147,51 +139,52 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://media.licdn.com/dms/image/C4E0BAQHWq9HBaNpGSA/company-logo_200_200/0/1603924726074?e=2147483647&v=beta&t=2_b5NJZ5JVFTq1pmiE4GP-sOor0I39556ofsrzK_tZI",
+    img: "https://s.yimg.com/zb/imgv1/2151d310-bd72-3b71-8b8c-fcc7c32e15f8/t_500x300",
     role: "Software Engineer",
-    company: "Coalescence Technologies",
-    date: "Sep 2021 - Present",
+    company: "Capgemini",
+    date: "Feb 2023 - Present",
     city: "Mumbai, Maharashtra, India",
-    website: "https://www.coalescence.tech/",
-    desc: "I work as a software engineer, specializing in backend development. I design and implement RESTful APIs using Flask and Node.js with Express.js, using MongoDB as the database. I also integrate these APIs into React.js projects for seamless frontend-backend communication. Additionally, I create Python scripts to read and analyze files, automate tasks, and scrape data from websites and mobile apps.",
+    website: "https://www.capgemini.com/",
+    desc: "I work as a Software Developer, specializing in backend development, data engineering, and analytics. I build automated web scraping systems to monitor competitor pricing and develop forecasting algorithms for optimal product pricing. I design ETL pipelines for seamless data migration across multiple databases, handling schema transformations with zero downtime. Additionally, I create full-stack analytics dashboards with real-time sales monitoring, profit tracking, and multi-location performance analysis.",
     skills: [
-      "Python",
-      "Flask",
-      "HTML",
-      "CSS",
+      "React JS",
+      "Node JS",
+      "Express JS",
+      "SSMS",
       "JavaScript",
-      "NodeJs",
-      "ExpressJs",
-      "ReactJs",
+      "MySQL",
       "MongoDB",
-      "Redis",
-      "Pandas",
-      "Numpy",
-      "AWS",
-      "Gitlab",
-    ],
+      "RESTful APIs",
+      "Azure",
+      "Bootstrap",
+      "Data Analysis",
+      "Material UI"
+    ]
   },
   {
     id: 1,
-    img: "https://content.jdmagicbox.com/comp/mumbai/l6/022pxx22.xx22.180216222446.f5l6/catalogue/trackpoint-gps-pvt-ltd-registered-office-jogeshwari-west-mumbai-automobile-electrical-part-repair-and-services-fpp5zewnjt-250.jpg",
-    role: "Tech Support Executive",
-    company: "Trackpoint GPS Private Limited",
-    date: "July 2018 - Aug 2020 (2 yrs 1 mos)",
+    img: "https://www.vmcompute.com/wp-content/uploads/2021/12/logo-1.png",
+    role: "Full Stack Developer",
+    company: "VM Compute Private Limited",
+    date: "May 2022 - Feb 2023 (10 Months)",
     city: "Mumbai, Maharashtra, India",
-    website: "https://matchpointgps.com/",
-    desc: "In my role as a Tech Support Executive, I ensured the uninterrupted operation of server services, addressing server load issues by promptly restarting services and optimizing performance through data management. I also specialized in resolving escalated customer issues, offering tailored solutions by analyzing databases and creating custom queries. Additionally, I played a pivotal role in improving team productivity by developing Python scripts for automating repetitive tasks, boosting overall efficiency.    ",
+    website: "https://www.vmcompute.com/",
+    desc: "I work as a Full Stack Developer, specializing in backend development and data engineering. I design and implement RESTful APIs using FastAPI, Flask, and Django, integrating them with ReactJS projects for seamless frontend-backend communication. I also develop ETL pipelines, automation scripts, and web/mobile scraping solutions using Python to process, analyze, and visualize data efficiently.",
     skills: [
-      "Python 2.x",
-      "Python 3.x",
-      "Pandas",
-      "Numpy",
-      "Matplotlib",
-      "MySQL",
-      "Nagios Tool",
-      "Kafla Tool",
-      "Jira",
-    ],
+      "RESTful APIs",
+      "ReactJS",
+      "Bootstrap",
+      "Data Analysis",
+      "Performance Optimization",
+      "Team Management",
+      "Code Review",
+      "Node JS",
+      "Express JS",
+      "SSMS",
+      "JavaScript",
+    ]
   },
+  
 ];
 
 export const education = [
@@ -200,22 +193,53 @@ export const education = [
     img: "https://timscdrmumbai.in/wp-content/uploads/2020/07/TIMSCDR-Header1-e1594097959343.png",
     school: "Thakur Institute of Management Studies, Career Development & Research, Mumbai",
     date: "July 2019 - May 2022",
-    grade: "CGPI 8.53/10",
+    grade: "CGPI 7.70/10",
     desc: "I completed my post graduation at Thakur Institute of Management Studies, Career Development & Research, where I studied about development of computer applications.",
     degree: "Master of Computer Applications - MCA, Computer Programming, Specific Applications",
   },
   {
     id: 1,
-    img: "https://studybharat.com/wp-content/uploads/2018/04/Shree-Shankar-Narayan-Education-Trusts-Rohidas-Patil-Institute-of-Management-Studies-Bhayandar.jpg",
-    school: "Shankar Narayan College of Arts & Commerce, Mumbai",
-    date: "June 2015 - May 2018",
-    grade: "5.90/7",
-    desc: "I completed my graduation at Shankar Narayan College of Arts & Commerce, where I studied about databases, networking, and software.",
+    img: "https://valiacollege.co.in/wp-content/uploads/2021/06/valia-logo-3.png",
+    school: "Valia College of Arts & Commerce, Mumbai",
+    date: "June 2016 - May 2019",
+    grade: "6.70/7",
+    desc: "I completed my graduation at Valia College of Arts & Commerce, where I studied about databases, networking, and software.",
     degree: "Bachelor of Science - BS, Information Technology",
   },
 ];
 
 export const projects = [
+  {
+    id: 0,
+    title: "Zonal Excellence System - Vodafone Idea",
+    description: "Zone Excellence is a performance evaluation system developed for Vodafone Idea, featuring automated leadership dashboards. The system tracks and analyzes employee performance across multiple zones, providing real-time insights and visualizations for managers and leadership teams. It ensures efficient monitoring, reporting, and data-driven decision making, helping improve overall organizational performance.",
+    image: "https://i.postimg.cc/sxf8Dky4/zonal.png",
+    tags: ["Python", "FastAPI", "RESTful APIs", "Pandas", "PostgreSQL", "Docker", "Systemd"],
+    category: "facts",
+    // github: "https://github.com/rishavchanda/Trackify",
+    // webapp: "https://cls-hub.coalescence.tech/",
+  },
+  {
+    id: 1,
+    title: "Vehicle Management System - Vodafone Idea",
+    description: "The Vehicle Management System is a backend solution developed for Vodafone Idea to manage employee roster uploads, vehicle allocations, and field engineer requests. The system streamlines the workflow for vehicle assignment, ensures accurate tracking, and enables efficient resource management for large teams, improving operational efficiency.",
+    image: "https://i.postimg.cc/7PCZqdsN/Whats-App-Image-2025-09-03-at-1-41-37-AM-1.jpg",
+    tags: ["Python", "FastAPI", "RESTful APIs", "Pandas", "PostgreSQL", "Redis", "Docker", "Systemd", "ReactJS"],
+    category: "facts",
+    // github: "https://github.com/rishavchanda/Trackify",
+    // webapp: "https://cls-hub.coalescence.tech/",
+  },
+  {
+    id: 2,
+    title: "Sitedown Network Migration",
+    description: "Sitedown Network is a system migrated from Flask/Jinja2 to FastAPI/ReactJS, achieving a 70% performance improvement. The project involved refactoring backend APIs, integrating with ReactJS frontend, and optimizing data processing with Pandas and PostgreSQL. It ensures faster response times and enhanced user experience for monitoring network downtime.",
+    image: "https://i.postimg.cc/k5X7zpRK/Whats-App-Image-2025-09-03-at-1-43-57-AM.jpg",
+    tags: ["Python", "FastAPI", "Flask", "RESTful APIs", "Pandas", "PostgreSQL", "Redis", "ReactJS", "TailwindCSS", "Systemd"],
+    category: "facts",
+    // github: "https://github.com/rishavchanda/Trackify",
+    // webapp: "https://cls-hub.coalescence.tech/",
+  },
+
   {
     id: 1,
     title: "Coalescence Technologies CLS-Hub-Rest Backend",
