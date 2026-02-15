@@ -220,28 +220,6 @@ export const education = [
 export const projects = [
   
   {
-    id: 17,
-    title: "Meme List Manager",
-    description: "This is My Training Project. The Task Management App is a web-based application for organizing tasks and to-do lists. Users can create, edit, and prioritize tasks, set deadlines, and mark them as completed. It includes user authentication and provides a simple and efficient way to manage daily tasks.",
-    image: "https://i.postimg.cc/RFdG0Yfs/op.png",
-    tags: ["React.JS", "Reactstrap", "Axios"],
-    category: "coalescence",
-    github: "https://github.com/rahulgupta020/memelistmanager/",
-    webapp: "https://rahulgupta020.github.io/memelistmanager/",
-  },
-  {
-    id: 1,
-    title: "Todo Web App",
-    description:
-      "A Todo Web App made with React JS, Redux, and Material UI. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and can create a new task. It has a calendar where users can see all the tasks on a particular date. It has a search bar where users can search for a particular task.",
-    image:
-      "https://i.postimg.cc/SQT0cV3t/todo-op.png",
-    tags: ["React Js", "react-google-login", "reactstrap", "Local Storage",],
-    category: "personal",
-    github: "https://github.com/rahulgupta020/todo-react/",
-    webapp: "https://react-todoes.netlify.app/",
-  },
-  {
     id: 2,
     title: "College Notes Drive",
     description:
@@ -255,7 +233,7 @@ export const projects = [
   {
     id: 2,
     title: "MERN E-commerce Web App for fitness freak with Context API",
-    description: "React Shopping Web App leverages the power of React.js, Redux and Context API to create a seamless shopping experience for fitness freak. Users can explore a variety of categories, brands, products, including whey protein, pre-post workout and workout essentials. To make a purchase or proceed to the checkout, users must log in with predefined credentials.    Every user starts with a wallet balance of 10,000 units, which decreases as they make purchases. This project offers a user-friendly and secure platform for online shopping, demonstrating the practical application of state management and user authentication in a modern web app.",
+    description: "React Shopping Web App leverages the power of React.js, Redux and Context API to create a seamless shopping experience for fitness freak. Users can explore a variety of categories, brands, products, including whey protein, pre-post workout and workout essentials. To make a purchase or proceed to the checkout, users must log in with predefined credentials. This project offers a user-friendly and secure platform for online shopping, demonstrating the practical application of state management and user authentication in a modern web app. Users can search and filters products by brand, categories, price",
     image: "https://image2url.com/r2/default/images/1770975713789-5592bcb0-f9a7-491b-9e3c-2e1e98ee55b4.jpg",
     tags: ["React JS", "Bootstrap", "Context API", "Redux", "Express JS", "Node JS", "MongoDB", "Material UI", "RESTful APIs"],
     category: "personal",
