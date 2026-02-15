@@ -211,7 +211,7 @@ export const education = [
     img: "https://valiacollege.co.in/wp-content/uploads/2021/06/valia-logo-3.png",
     school: "Valia College of Arts & Commerce, Mumbai",
     date: "June 2016 - May 2019",
-    grade: "6.70/7",
+    grade: "6.70/10",
     desc: "I completed my graduation at Valia College of Arts & Commerce, where I studied about databases, networking, and software.",
     degree: "Bachelor of Science - BS, Information Technology",
   },
