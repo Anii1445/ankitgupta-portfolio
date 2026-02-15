@@ -90,7 +90,7 @@ function Footer() {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <Logo>Rahul Gupta</Logo>
+        <Logo>Ankit Gupta</Logo>
         <Nav>
           <NavLink href="#about">About</NavLink>
           <NavLink href="#skills">Skills</NavLink>
@@ -108,7 +108,7 @@ function Footer() {
           <SocialMediaIcon href={Bio.facebook} target="display"><FacebookIcon /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
-          &copy; 2023 Rahul Gupta. All rights reserved.
+          &copy; 2025 Ankit Gupta. All rights reserved.
         </Copyright>
 
       </FooterWrapper>

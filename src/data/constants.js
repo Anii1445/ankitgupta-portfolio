@@ -7,9 +7,9 @@ export const Bio = {
     "Web Developer",
   ],
   description:
-    "I am Ankit Ramji Gupta, a Software Developer with 2+ years of experience building scalable backend systems, RESTful APIs, and full-stack solutions. Skilled in RESTAPI, JavaScript, PHP, ExpressJS, ReactJS, SQL, MongoDB, Bootstrap and MaterialUI. I deliver high-performance tools like analytics dashboards, automation pipelines, and management systems. Passionate about problem-solving, optimization, and sharing knowledge through coding tutorials and competitive programming.",
+    "I am Ankit Ramji Gupta, a Software Engineer with expertise in MERN stack web development, API integration with frontend framework, building secure, and scalable web applications. I create RESTful APIs using Node.js., Express.js. Passionate about developing efficient systems and improving user experience. My goal is to make a meaningful contribution in software development",
   github: "https://github.com/Anii1445", 
-  resume: "https://drive.google.com/file/d/1dHGNmxsR_5jo8BremPwf4_8na21OHY7y/view?usp=sharing",
+  resume: "https://drive.google.com/file/d/1Kh69fWrxeJg5KC8fMKF9y7990MNzht7P/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/ankitgupta14998/",
   insta: "https://www.instagram.com/ankitguptaa.___/",
 };
@@ -135,7 +135,7 @@ export const skills = [
       },
       {
         name: "Render",
-        image: "https://tse2.mm.bing.net/th/id/OIP.FC33go2kga0F2SDQlnP-DgHaDt?pid=Api&P=0&h=220"
+        image: "data:image/jpeg;base64,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"
       }
     ],
   },
