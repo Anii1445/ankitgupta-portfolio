@@ -7,7 +7,7 @@ export const Bio = {
     "Web Developer",
   ],
   description:
-    "I am Ankit Ramji Gupta, a Software Engineer with expertise in MERN stack web development, API integration with frontend framework, building secure, and scalable web applications. I create RESTful APIs using Node.js., Express.js. Passionate about developing efficient systems and improving user experience. My goal is to make a meaningful contribution in software development",
+    "I am Ankit Ramji Gupta, a Software Engineer with expertise in MERN stack web development, API integration with frontend framework, building secure, and scalable web applications. I create RESTful APIs using Node.js., Express.js. Passionate about developing efficient systems and improving user experience. My goal is to make a meaningful contribution in software development.",
   github: "https://github.com/Anii1445", 
   resume: "https://drive.google.com/file/d/1fc63MoTAGo_n-tueG_YGCeIb-LsJorRV/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/ankitgupta14998/",
@@ -150,7 +150,7 @@ export const experiences = [
     date: "Feb 2023 - Present",
     city: "Mumbai, Maharashtra, India",
     website: "https://www.capgemini.com/",
-    desc: "I work as a Software Developer, specializing in backend development, data engineering, and analytics. I build automated web scraping systems to monitor competitor pricing and develop forecasting algorithms for optimal product pricing. I design ETL pipelines for seamless data migration across multiple databases, handling schema transformations with zero downtime. Additionally, I create full-stack analytics dashboards with real-time sales monitoring, profit tracking, and multi-location performance analysis.",
+    desc: "I work as a Software Engineer, specializing in backend development, API integration with frontend frameworks. Worked on a Microsoft Dynamics CRM project with operational team. As a D365 Developer, I was part of case handling processes. Configured custom entities, fields, forms, and views. Customized Customer Service module – Cases, Queues, SLA, Routing rule set as per the requirement. Actively involved in technical discussions with clients to understand requirements and provide solutions.",
     skills: [
       "React JS",
       "Node JS",
@@ -163,7 +163,7 @@ export const experiences = [
       "Azure",
       "Bootstrap",
       "Data Analysis",
-      "Material UI"
+      "Material UI",
     ]
   },
   {
@@ -174,7 +174,7 @@ export const experiences = [
     date: "May 2022 - Feb 2023 (10 Months)",
     city: "Mumbai, Maharashtra, India",
     website: "https://www.vmcompute.com/",
-    desc: "I work as a Full Stack Developer, specializing in backend development and data engineering. I design and implement RESTful APIs using FastAPI, Flask, and Django, integrating them with ReactJS projects for seamless frontend-backend communication. I also develop ETL pipelines, automation scripts, and web/mobile scraping solutions using Python to process, analyze, and visualize data efficiently.",
+    desc: "I work as a Full Stack Developer, specializing in backend development, RESTful APIs creation, API integration with frontend frameworks. I design and implement RESTful APIs using Node JS, and Express JS, integrating them with ReactJS projects for seamless frontend-backend communication.",
     skills: [
       "RESTful APIs",
       "ReactJS",
@@ -187,6 +187,10 @@ export const experiences = [
       "Express JS",
       "SSMS",
       "JavaScript",
+      "MongoDB",
+      "Material UI",
+      "jQuery",
+      "Postman"
     ]
   },
   
