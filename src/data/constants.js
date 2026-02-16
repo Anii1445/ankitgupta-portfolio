@@ -9,7 +9,7 @@ export const Bio = {
   description:
     "I am Ankit Ramji Gupta, a Software Engineer with expertise in MERN stack web development, API integration with frontend framework, building secure, and scalable web applications. I create RESTful APIs using Node.js., Express.js. Passionate about developing efficient systems and improving user experience. My goal is to make a meaningful contribution in software development.",
   github: "https://github.com/Anii1445", 
-  resume: "https://drive.google.com/file/d/10IeJ_chEGIt9WIaigVrCINOBfGuQU_3G/view?usp=sharing",
+  resume: "https://drive.google.com/file/d/11G5LB_Paa8QAtulvamE4GS5QXBD0s-Be/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/ankitgupta14998/",
   insta: "https://www.instagram.com/ankitguptaa.___/",
 };
