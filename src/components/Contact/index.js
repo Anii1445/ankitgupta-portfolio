@@ -130,7 +130,6 @@ const user_id=process.env.REACT_APP_USER_ID;
 const Contact = () => {
 
   //hooks
-  const [open, setOpen] = React.useState(false);
   const form = useRef();
   const [email, setEmail] = React.useState("");
   const [name, setName] = React.useState("");
