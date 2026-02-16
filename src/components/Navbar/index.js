@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Nav, NavLink, NavbarContainer, Span, NavLogo, NavItems, LinkedInButton, ButtonContainer, MobileIcon, MobileMenu, MobileLink } from './NavbarStyledComponent'
 import { DiCssdeck } from 'react-icons/di';
 import { FaBars } from 'react-icons/fa';
@@ -60,8 +60,11 @@ const MaterialUISwitch = styled(Switch)(({ theme }) => ({
 const Navbar = ({ toggleDarkMode }) => {
 
   const [isOpen, setIsOpen] = React.useState(false);
-  const theme = useTheme()
+  const theme = useTheme();
   const [darkMode, setDarkMode] = React.useState(true);
+  useEffect(()=>{
+    setDarkMode(true);
+  },[]);
 
 
   return (
