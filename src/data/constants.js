@@ -240,6 +240,16 @@ export const projects = [
     github: "https://github.com/Anii1445/mern-frontend",
     webapp: "https://firstfitness.vercel.app/",
   },
+   {
+    id: 3,
+    title: "AI Flow application built using MERN stack",
+    description: "A full-stack application that allows users to input a prompt, generate AI responses, visualize the flow using React Flow, and store results in a MongoDB database.",
+    image: "https://image2url.com/r2/default/images/1774705600503-0cfbe534-6fc0-4553-9af8-cc69e59761d5.jpg",
+    tags: ["React JS", "Bootstrap","React flow","OpenRouter","Express JS", "Node JS", "MongoDB", "Material UI", "RESTful APIs"],
+    category: "personal",
+    github: "https://github.com/Anii1445/AI_FLOW_Frontend",
+    webapp: "https://ai-flowapp.vercel.app/",
+  },
  
 ];
 
